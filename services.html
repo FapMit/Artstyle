@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap"
+        rel="stylesheet" />
+
+    <link rel="stylesheet" href="css/normalizez.css" />
+    <link rel="stylesheet" href="css/resets.css" />
+    <link rel="stylesheet" href="css/services.css" />
+    <title>Услуги студии</title>
+</head>
+
+<body>
+    <div class="container-nav">
+        <div class="nav-box">
+            <nav class="nav">
+                <a class="box-logo" href="index.html">
+                    <img src="icons/logo.svg" alt="logo" class="logo" />
+                </a>
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="services.html" class="nav__link">УСЛУГИ</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="prices.html" class="nav__link">ЦЕНЫ</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">КОМАНДА</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="contakcs.html" class="nav__link">КОНТАКТЫ</a>
+                    </li>
+                </ul>
+                <button class="btn">ЗАПИСАТЬСЯ</button>
+                <a href="#" class="burger">
+                    <span></span>
+                </a>
+            </nav>
+        </div>
+    </div>
+
+    <!-- первый экран -->
+    <section class="title-services">
+        <div class="container">
+            <h1 class="title-services__title title headerAnimation">
+                услуги студии
+            </h1>
+            <div class="title-services__about">
+                <p class="title-services__paragraph headerAnimation">
+                    Все наши мастера имеют большой опыт работы и постоянно повышают свою
+                    квалификацию. Все процедуры проводятся в уютной атмосфере нашего
+                    салона, и мы гарантируем индивидуальный подход к каждому клиенту.
+                </p>
+            </div>
+        </div>
+        <canvas class="grain"></canvas>
+        <img class="apo1" src="img/services.jpg" />
+    </section>
+
+    <!-- второй экран -->
+    <section class="hairdressing section">
+        <div class="container hairdressing__container">
+            <div class="hairdressing__photo animationUp"></div>
+            <div class="hairdressing__content">
+                <div class="headline">
+                    <h2 class="headline__title hairdressing__title js-splitText js-text-effect">
+                        парикмахерские услуги
+                    </h2>
+                    <p class="headline__description hairdressing__description">
+                        Наша мастера оказывают широкий спектор парикмахерских услуг.
+                    </p>
+                </div>
+                <div class="hairdressing__photo-small animationUp"></div>
+                <div class="hairdressing__list-wrapper">
+                    <ul class="hairdressing__list services-list">
+                        <li class="services-list__service showList">
+                            <span class="services-list__main">Стрижки:</span> женские,
+                            мужские, детские;
+                        </li>
+                        <li class="services-list__service showList">
+                            <span class="services-list__main">Реконструкция волос:</span>
+                            Ботокс, кератин, нанопластика;
+                        </li>
+                        <li class="services-list__service showList">
+                            <span class="services-list__main">Долговременная укладка</span>
+                            - биозавивка;
+                        </li>
+                        <li class="services-list__service showList">
+                            <span class="services-list__main">Все виды окрашиваний</span>, в
+                            том числе самые сложные техники: Airtouhc, Shatush, Balayage,
+                            Handtouch и выход из черного;
+                        </li>
+                        <li class="services-list__service showList">
+                            Так же в нашем салоне красоты вы сможете выполнить процедуры по
+                            уходу за длиной волос и кожей головы и сделать диагностику кожи
+                            головы, с использованием трихокамеры.
+                        </li>
+                    </ul>
+                    <button class="button-watch hairdressing__button">
+                        <a href="#">стоимость<img src="icons/watch.svg" alt="watch" /></a>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="hairdressing__photos-box container">
+            <div class="hairdressing__text">
+                <p>Создаем ваш уникальный образ</p>
+            </div>
+            <div class="hairdressing__photos-example">
+                <div class="hairdressing__photo-hair animationUp"></div>
+                <div class="hairdressing__photo-hair hairdressing__photo-hair_second animationUp"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- третий экран -->
+    <section class="section nails-section">
+        <div class="container nails-section__container">
+            <div class="headline nails-section__headline">
+                <h2 class="headline__title nails-section__title js-splitText js-text-effect">
+                    ногтевой сервис
+                </h2>
+                <p class="headline__description nails-section__description">
+                    Наши опытные мастера ногтевого сервиса используют только
+                    высококачественные материалы и соблюдают все санитарные нормы, чтобы
+                    обеспечить вам комфорт и безопасность во время процедур.
+                </p>
+            </div>
+            <div class="nails-section__content">
+                <div class="nails-section__list-wrapper">
+                    <ul class="nails-section__list services-list">
+                        <li class="services-list__service showList">
+                            <span class="services-list__main">Маникюр:</span> классический,
+                            аппаратный, европейский;
+                        </li>
+                        <li class="services-list__service showList">
+                            <span class="services-list__main">Педикюр:</span> классический,
+                            аппаратный, SMART-педикюр;
+                        </li>
+                        <li class="services-list__service showList">
+                            <span class="services-list__main">Наращивание ногтей и коррекция </span>наращенных ногтей;
+                        </li>
+                        <li class="services-list__service showList">
+                            <span class="services-list__main">Моделирование ногтей</span>;
+                        </li>
+                        <li class="services-list__service showList">
+                            <span class="services-list__main">Создание любого дизайна</span>
+                            по вашему запросу.
+                        </li>
+                    </ul>
+                    <button class="button-watch nails-section__button">
+                        <a href="#">стоимость<img src="icons/watch-white.svg" alt="watch" /></a>
+                    </button>
+                </div>
+                <div class="nails-section__photo animationUp"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- четвертый экран -->
+    <section class="brows-section section">
+        <div class="container brows-section__container">
+            <div class="brows-section__photo animationUp"></div>
+            <div class="brows-section__content">
+                <div class="headline brows-section__headline">
+                    <h2 class="headline__title brows-section__title js-splitText js-text-effect">
+                        архитектура бровей и ресницы
+                    </h2>
+                    <p class="headline__description brows-section__description">
+                        Наши мастера используют только качественные материалы и
+                        современные технологии, чтобы Ваши брови и ресницы выглядели
+                        идеально.
+                    </p>
+                </div>
+                <div class="brows-section__photo-small animationUp"></div>
+                <div class="brows-section__list-wrapper">
+                    <ul class="brows-section__list services-list">
+                        <li class="services-list__service showList">
+                            <span class="services-list__main">Коррекция бровей</span> -
+                            удаление лишних волосков, придание формы;
+                        </li>
+                        <li class="services-list__service showList">
+                            <span class="services-list__main">Окрашивание бровей и ресниц</span>
+                            с использованием профессиональных красителей;
+                        </li>
+                        <li class="services-list__service showList">
+                            <span class="services-list__main">Ламинирование ресниц</span> -
+                            создание красивого изгиба и уход за ресницами;
+                        </li>
+                        <li class="services-list__service showList">
+                            <span class="services-list__main">Ламинирование бровей</span>;
+                        </li>
+                        <li class="services-list__service showList">
+                            <span class="services-list__main">Ботокс для ресниц</span>
+                            (питание и укрепление).
+                        </li>
+                    </ul>
+                    <button class="button-watch brows-section__button">
+                        <a href="#">стоимость<img src="icons/watch.svg" alt="watch" /></a>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- пятый экран -->
+    <section class="section depilation-section">
+        <div class="container depilation-section__container">
+            <div class="headline depilation-section__headline">
+                <h2 class="headline__title depilation-section__title js-splitText js-text-effect">
+                    временное удаление волос
+                </h2>
+                <p class="headline__description depilation-section__description">
+                    Наши мастера помогут качественно и безболезненно избавиться от
+                    нежелательных волос.
+                </p>
+            </div>
+            <div class="depilation-section__content">
+                <div class="depilation-section__list-wrapper">
+                    <p>
+                        Временное удаление волос с помощью качественных материалов, таких
+                        как:
+                    </p>
+                    <ul class="depilation-section__list services-list">
+                        <li class="services-list__service showList">
+                            <span class="services-list__main">Сахарная паста (Shugaring)</span>
+                        </li>
+                        <li class="services-list__service showList">
+                            <span class="services-list__main">Воск</span>
+                        </li>
+                        <li class="services-list__service showList">
+                            <span class="services-list__main">Полимер</span>
+                        </li>
+                    </ul>
+                    <button class="button-watch depilation-section__button">
+                        <a href="#">стоимость<img src="icons/watch-white.svg" alt="watch" /></a>
+                    </button>
+                </div>
+                <div class="depilation-section__photo animationUp"></div>
+            </div>
+        </div>
+    </section>
+    <!-- шестой экран -->
+    <section class="cosmetology-section section">
+        <div class="container cosmetology-section__container">
+            <div class="cosmetology-section__photo animationUp"></div>
+            <div class="cosmetology-section__content">
+                <div class="headline cosmetology-section__headline">
+                    <h2 class="headline__title cosmetology-section__title js-splitText js-text-effect">
+                        эстетическая косметология
+                    </h2>
+                    <p class="headline__description cosmetology-section__description">
+                        В нашей студии вы можете воспользоваться широким спектром услуг
+                        эстетической косметологии, направленных на сохранение и
+                        поддержание Вашей красоты и здоровья.
+                    </p>
+                </div>
+                <div class="cosmetology-section__photo-small animationUp"></div>
+                <div class="cosmetology-section__list-wrapper">
+                    <ul class="cosmetology-section__list services-list">
+                        <li class="services-list__service showList">
+                            <span class="services-list__main">Уходовые процедуры для лица и тела</span>;
+                        </li>
+                        <li class="services-list__service showList">
+                            <span class="services-list__main">Гигиеническая и химическая чистки лица</span>;
+                        </li>
+                        <li class="services-list__service showList">
+                            <span class="services-list__main">Пилинги</span>;
+                        </li>
+                        <li class="services-list__service showList">
+                            <span class="services-list__main">Аппаратная косметология</span>;
+                        </li>
+                        <li class="services-list__service showList">
+                            <span class="services-list__main">Массаж лица и тела</span>;
+                        </li>
+                        <li class="services-list__service showList">
+                            <span class="services-list__main">Депилиция</span>;
+                        </li>
+                        <li class="services-list__service showList">
+                            Кроме того, наши специалисты помогут подобрать домашний уход,
+                            исходя из Ваших индивидуальных особенностей и потребностей.
+                        </li>
+                    </ul>
+                    <button class="button-watch cosmetology-section__button">
+                        <a href="#">стоимость<img src="icons/watch.svg" alt="watch" /></a>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ФУТЕР -->
+    <div class="container-footer">
+        <div class="footer-box">
+            <footer class="footer">
+                <ul class="footer__ul">
+                    <li class="footer__li">
+                        <a href="services.html" class="footer__link">услуги</a>
+                    </li>
+                    <li class="footer__li">
+                        <a href="prices.html" class="footer__link">цены</a>
+                    </li>
+                    <li class="footer__li">
+                        <a href="#" class="footer__link">команда</a>
+                    </li>
+                    <li class="footer__li">
+                        <a href="contakcs.html" class="footer__link">контакты</a>
+                    </li>
+                </ul>
+                <h5 class="footer__title">Kabanova Artstyle</h5>
+                <div class="footer-icon">
+                    <a href="#" class="footer-icon__link">
+                        <img src="icons/footer-1.png" alt="" class="footer-icon__img" />
+                    </a>
+                    <a href="#" class="footer-icon__link">
+                        <img src="icons/footer-2.png" alt="" class="footer-icon__img" />
+                    </a>
+                    <a href="#" class="footer-icon__link">
+                        <img src="icons/footer-3.png" alt="" class="footer-icon__img" />
+                    </a>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+    <script src="js/js.js"></script>
+</body>
+
+</html>
