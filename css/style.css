@@ -2081,8 +2081,15 @@ body {
     }
 }
 
+.table__trtitle {
+    border-bottom: 1px solid gray;    
+    border-collapse: collapse;
+    box-sizing: border-box;
+    border-spacing: 0;
+}
 .table__trtext {
     border-top: 1px solid gray;
+    border-bottom: 1px solid gray;    
     border-collapse: collapse;
     box-sizing: border-box;
     border-spacing: 0;
