@@ -2082,7 +2082,10 @@ body {
 }
 
 .table__trtext {
-    border-top: 1px solid #808080;
+    border-top: 1px solid gray;
+    border-collapse: collapse;
+    box-sizing: border-box;
+    border-spacing: 0;
     text-align: center
 }
 
