@@ -2092,7 +2092,8 @@ body {
     border-collapse: collapse;
     box-sizing: border-box;
     border-spacing: 0;
-    text-align: center
+    text-align: center;
+    width: 100%;
 }
 
 .table__trtext:last-child .table__text {
